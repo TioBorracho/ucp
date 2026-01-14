@@ -299,6 +299,7 @@ to ensure authenticity and integrity.
 3.  Include the JWT in the `Request-Signature` header.
 4.  Include the key ID in the JWT header's `kid` claim to allow the receiver to
     identify which key to use for verification.
+5.  Include the `X-Api-Key` header used to identify the Business within the Platform (if required).
 
 **Verification (Platform)**
 
